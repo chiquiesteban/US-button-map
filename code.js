@@ -1,3 +1,5 @@
+var highlighted = ["AK", "MA", "TX"]
+
 $(document).ready(function(){
 	for (var i = 0; i < 96; i++) {
 		$("#chart").append('<div class="state" id="st'+i+'"></div>');
@@ -69,5 +71,11 @@ $(document).ready(function(){
 	$(".truestate").mouseout(function(){
 		$(this).css("box-shadow","0px 0px 0px 0px #CCC");
 	});
+
+	for (var i = 0; i < highlighted.length; i++) {
+		console.log()
+		$("#"+highlighted[i]).css("background","#9B1518");
+	};
+
 
 });
