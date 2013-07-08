@@ -1,0 +1,32 @@
+#graphic-container .state { 
+  width:8%; 
+	margin:0.165%;
+	visibility:hidden;
+	display:inline; float:left;
+	-moz-border-radius: 15%; border-radius: 15%;
+}
+
+#graphic-container .truestate { 
+	background:#CCC;
+	visibility:visible;
+}
+
+#graphic-container .statename { 
+	color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding-top:35%;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+	#graphic-container .statename { 
+		padding-top:30%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#graphic-container .statename { 
+		padding-top:15%;
+		font-size:0.75em;
+	}
+}
