@@ -73,7 +73,6 @@ $(document).ready(function(){
 	});
 
 	for (var i = 0; i < highlighted.length; i++) {
-		console.log()
 		$("#"+highlighted[i]).css("background","#9B1518");
 	};
 
